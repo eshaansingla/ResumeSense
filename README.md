@@ -361,27 +361,6 @@ git push heroku main
 - Scores resume quality (0-100)
 - Considers ATS compliance, keywords, metrics, etc.
 
-## 🤝 Collaboration
-
-### For 2-Member Team
-
-**Member 1 (Backend Focus):**
-- Work on ML model improvements
-- Database optimization
-- API enhancements
-- Backend testing
-
-**Member 2 (Frontend Focus):**
-- UI/UX improvements
-- Frontend JavaScript
-- User experience enhancements
-- Frontend testing
-
-**Shared Responsibilities:**
-- Code reviews
-- Documentation updates
-- Bug fixes
-- Feature planning
 
 ## 📄 License
 
