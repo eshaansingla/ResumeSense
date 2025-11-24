@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeSense - AI-Powered Resume Feedback</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ResumeSense</h1>
+            <p class="subtitle">AI-Powered Resume Feedback Engine</p>
+        </header>
+
+        <nav>
+            <a href="/" class="nav-link active">Analyze</a>
+            <a href="/history" class="nav-link">History</a>
+        </nav>
+
+        <main>
+            <div class="upload-section">
+                <h2>Upload Your Resume</h2>
+                <form id="analyzeForm" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="resumeFile">Resume PDF</label>
+                        <input type="file" id="resumeFile" name="resume_file" accept=".pdf" required>
+                        <small>Upload a PDF file of your resume</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jobDescription">Job Description (Optional)</label>
+                        <textarea id="jobDescription" name="job_description" rows="8" 
+                                  placeholder="Paste the job description here to get a match score..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary" id="analyzeBtn">
+                        <span id="btnText">Analyze Resume</span>
+                        <span id="btnLoader" class="loader" style="display: none;"></span>
+                    </button>
+                </form>
+            </div>
+
+            <div id="results" class="results-section" style="display: none;">
+                <h2>Analysis Results</h2>
+
+                <!-- Score Cards -->
+                <div class="score-cards">
+                    <div class="score-card" id="qualityCard">
+                        <div class="score-label">Quality Score</div>
+                        <div class="score-value" id="qualityScore">-</div>
+                        <div class="score-bar">
+                            <div class="score-fill" id="qualityFill"></div>
+                        </div>
+                    </div>
+
+                    <div class="score-card" id="atsCard" style="display: none;">
+                        <div class="score-label">ATS Score</div>
+                        <div class="score-value" id="atsScore">-</div>
+                        <div class="score-bar">
+                            <div class="score-fill" id="atsFill"></div>
+                        </div>
+                    </div>
+
+                    <div class="score-card" id="matchCard" style="display: none;">
+                        <div class="score-label">JD Match</div>
+                        <div class="score-value" id="matchScore">-</div>
+                        <div class="score-bar">
+                            <div class="score-fill" id="matchFill"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ATS Report -->
+                <div class="result-panel" id="atsPanel" style="display: none;">
+                    <h3>ATS Compliance Report</h3>
+                    <div id="atsIssues"></div>
+                    <div id="atsRecommendations"></div>
+                </div>
+
+                <!-- Power Verbs -->
+                <div class="result-panel" id="verbsPanel" style="display: none;">
+                    <h3>Power Verb Suggestions</h3>
+                    <div id="verbFindings"></div>
+                </div>
+
+                <!-- Match Details -->
+                <div class="result-panel" id="matchPanel" style="display: none;">
+                    <h3>Job Description Match Details</h3>
+                    <div id="matchDetails"></div>
+                </div>
+            </div>
+
+            <div id="error" class="error-message" style="display: none;"></div>
+        </main>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
+
+

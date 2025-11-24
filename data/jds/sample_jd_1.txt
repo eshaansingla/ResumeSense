@@ -1,0 +1,49 @@
+Software Engineer - Full Stack Developer
+
+Company: Tech Innovations Inc.
+Location: San Francisco, CA (Remote Available)
+Type: Full-time
+
+Job Description
+
+We are seeking a talented Software Engineer to join our dynamic team. The ideal candidate will have
+experience building scalable web applications and working with modern technologies.
+
+Responsibilities:
+• Design and develop scalable web applications using Python and JavaScript
+• Build RESTful APIs and microservices architecture
+• Collaborate with cross-functional teams including product managers and designers
+• Write clean, maintainable code following best practices
+• Implement CI/CD pipelines for automated testing and deployment
+• Optimize application performance and database queries
+• Participate in code reviews and mentor junior developers
+• Work with cloud platforms (AWS) and containerization (Docker, Kubernetes)
+
+Requirements:
+• Bachelor's degree in Computer Science or related field
+• 3+ years of experience in software development
+• Strong proficiency in Python and JavaScript
+• Experience with web frameworks (Flask, Django, React, Node.js)
+• Knowledge of databases (PostgreSQL, MySQL)
+• Familiarity with cloud platforms (AWS, Azure, or GCP)
+• Experience with version control (Git)
+• Strong problem-solving skills and attention to detail
+• Excellent communication and teamwork abilities
+
+Preferred Qualifications:
+• Experience with microservices architecture
+• Knowledge of Docker and Kubernetes
+• Understanding of CI/CD practices
+• Experience with machine learning or data science
+• Contributions to open-source projects
+
+What We Offer:
+• Competitive salary and equity package
+• Comprehensive health benefits
+• Flexible work arrangements
+• Professional development opportunities
+• Collaborative and inclusive work environment
+
+To apply, please submit your resume and cover letter. We look forward to hearing from you!
+
+

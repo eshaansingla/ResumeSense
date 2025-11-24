@@ -1,0 +1,57 @@
+JOHN DOE
+Software Engineer
+
+Email: john.doe@email.com | Phone: (555) 123-4567
+123 Main Street, San Francisco, CA 94102
+LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe
+
+PROFESSIONAL SUMMARY
+Experienced software engineer with 5+ years developing scalable web applications and microservices.
+Led cross-functional teams to deliver projects that increased revenue by 30%. Expert in Python,
+JavaScript, and cloud technologies. Passionate about clean code, test-driven development, and
+continuous integration.
+
+EXPERIENCE
+
+Senior Software Engineer | Tech Corp | San Francisco, CA | 2020 - Present
+• Architected and developed microservices that improved system performance by 40%
+• Led team of 5 engineers, reducing deployment time by 50% through CI/CD automation
+• Implemented Docker and Kubernetes solutions, scaling infrastructure to handle 10M+ requests daily
+• Increased code coverage from 60% to 90% through comprehensive testing strategies
+• Collaborated with product managers to define technical requirements and sprint planning
+
+Software Engineer | Startup Inc | San Francisco, CA | 2018 - 2020
+• Developed RESTful APIs using Python and Flask, serving 1M+ requests daily
+• Optimized database queries using PostgreSQL, reducing response time by 35%
+• Built responsive frontend components using React and JavaScript
+• Collaborated with product team to deliver features on time and within budget
+• Participated in code reviews and mentored junior developers
+
+EDUCATION
+
+Bachelor of Science in Computer Science | State University | 2018
+• GPA: 3.8/4.0
+• Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering
+• Dean's List: Fall 2016, Spring 2017, Fall 2017
+
+SKILLS
+
+Programming Languages: Python, JavaScript, Java, SQL, TypeScript
+Frameworks & Libraries: Flask, Django, React, Node.js, Express
+Cloud & DevOps: AWS (EC2, S3, Lambda), Docker, Kubernetes, Jenkins, Git
+Databases: PostgreSQL, MySQL, MongoDB, Redis
+Tools: Git, JIRA, Confluence, Postman, VS Code
+
+PROJECTS
+
+E-Commerce Platform | Personal Project | 2019
+• Built full-stack e-commerce application using Python, Flask, and React
+• Implemented payment processing with Stripe API
+• Deployed on AWS with auto-scaling capabilities
+
+Machine Learning Classifier | Academic Project | 2017
+• Developed image classification model using TensorFlow
+• Achieved 92% accuracy on test dataset
+• Published results in university research journal
+
+
