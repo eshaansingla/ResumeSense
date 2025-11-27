@@ -309,5 +309,3 @@ class Database:
         if self.connection:
             self.connection.close()
             print("Database connection closed")
-
-
